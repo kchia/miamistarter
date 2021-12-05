@@ -1,12 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { coinsReducer } from "../features/coins/coins.slice";
-import { coinReducer } from "../features/coins/coin.slice";
-import { favoriteReducer } from "../features/favorites/favorite.slice";
+import { projectsReducer } from "../features/projects/projects.slice";
+import { projectReducer } from "../features/projects/project.slice";
 
 export const store = configureStore({
   reducer: {
-    coins: coinsReducer,
-    coin: coinReducer,
-    favorite: favoriteReducer,
+    projects: projectsReducer,
+    project: projectReducer,
   },
 });

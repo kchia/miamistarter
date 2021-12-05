@@ -1,6 +1,3 @@
-export { default as CoinsList } from "./coins/list";
-export { default as CoinView } from "./coins/view";
-export { default as FavoritesList } from "./favorites/list";
-export { default as FavoriteCreate } from "./favorites/create";
-export { default as FavoriteEdit } from "./favorites/edit";
-export { default as NoMatch } from "./no-match";
+export { default as ProjectsList } from "./projects/list";
+export { default as ProjectView } from "./projects/view";
+export { default as Auth } from "./auth";

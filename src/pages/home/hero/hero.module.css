@@ -1,0 +1,41 @@
+.heroContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heroContainer button {
+  position: relative;
+  margin: 10px 100px;
+  z-index: 2;
+}
+
+.textOverlay {
+  position: absolute;
+  background-color: var(--black-primary);
+  opacity: 0.4;
+  height: 60%;
+  width: 50%;
+  z-index: 1;
+  left: 80px;
+}
+
+.heroContainer h2,
+.heroContainer h4 {
+  color: var(--white-primary);
+  position: relative;
+  z-index: 2;
+  padding-left: 100px;
+}
+
+.heroContainer h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.heroContainer .fundingPoolSize {
+  color: yellow;
+  font-size: 1.3em;
+  font-weight: 900;
+  font-style: italic;
+}

@@ -1,0 +1,47 @@
+.card {
+  color: var(--black-primary);
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 0px;
+  padding: 0;
+  padding-bottom: 40px;
+  border: none;
+}
+
+.card:hover {
+  bottom: 10px;
+  transition: top ease 1s;
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.listGroupItem {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listGroupItem span {
+  background-color: var(--dark-turquoise) !important;
+  margin: 3px;
+  font-size: 0.65em;
+  border-radius: 0%;
+}
+
+div .h5 {
+  padding: 100px;
+}
+
+.card p {
+  font-size: 0.65em;
+  line-height: 1.4;
+  font-weight: 100;
+  color: #6a6a6a;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

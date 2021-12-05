@@ -1,0 +1,108 @@
+.card {
+  color: var(--black-primary);
+  border-radius: 0px;
+  margin-left: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.projectViewLogo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 2px solid var(--dark-turquoise);
+}
+
+.listItem button {
+  margin-top: 20px;
+}
+
+.listItem:hover {
+  cursor: pointer;
+}
+
+.logoContainer {
+  display: flex;
+  padding: 20px;
+}
+
+.logoSecondaryContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.carouselContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.businessModelRowContainer {
+  margin-bottom: 20px;
+}
+
+.teamPersonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.teamPersonName {
+  margin: 20px 0 0 0;
+}
+
+.teamJobTitle {
+  font-size: 0.75em;
+}
+
+.perkImg {
+  margin-bottom: 20px;
+}
+
+.voteNowContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--light-pink);
+  margin: 20px 0px;
+  border: 2px solid var(--dark-pink);
+}
+
+.voteButtonContainer {
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.voteNowContainer a {
+  color: var(--white-primary);
+}
+
+.voteNowContainer a:hover {
+  color: yellow;
+}
+
+.card ul {
+  padding: 0;
+}

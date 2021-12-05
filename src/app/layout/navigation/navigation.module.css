@@ -11,3 +11,7 @@
   color: var(--text-color);
   text-decoration: none;
 }
+
+.navLink:hover {
+  font-size: 22px;
+}

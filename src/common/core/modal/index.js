@@ -16,7 +16,9 @@ export default function CustomModal({
   return (
     <Modal show={show} onHide={handleClose}>
       <Modal.Header closeButton>
-        <Modal.Title className={styles.modalTitle}>{heading}</Modal.Title>
+        <Modal.Title className={styles.modalTitle}>
+          <h2>{heading}</h2>
+        </Modal.Title>
       </Modal.Header>
       <Modal.Body className={styles.modalBody}>{body}</Modal.Body>
       <Modal.Footer>

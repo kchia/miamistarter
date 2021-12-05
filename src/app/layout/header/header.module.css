@@ -1,4 +1,25 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.headerContainer div {
+  display: flex;
+  align-items: center;
+}
+
 .headerLink {
   text-decoration: none;
   color: var(--text-color);
+}
+
+.logo {
+  font-family: "Smooch", cursive;
+  font-size: 60px;
+}
+
+.logo:hover {
+  font-size: 66px;
 }
