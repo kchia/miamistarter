@@ -122,6 +122,7 @@ The following principles were applied in the design of the folder structure:
 
 ## Next Steps
 
+- Build a Reach connector for the Stacks consensus network
 - Create a New Project intake form so that entrepreneurs can submit their projects to be considered for funding on MiamiStarter
 - Testing apps that rely on $MIA to work is currently difficult since $MIA is not available via any testnet faucets (not that I know of), so perhaps it would be helpful to create such a faucet on testnet so the future developers can more easily test their applications
 - Allow the user to send $MIA directly to the wallet associated with each project as a direct investment
