@@ -284,7 +284,7 @@ export default function ProjectView() {
         </Card.Title>
         <Card.Text>
           <span className="funding-raised">{fundingRaised}</span> of{" "}
-          {fundingGoal} in $MIA raised
+          {fundingGoal} in STX raised
         </Card.Text>
         <Card.Text>
           {voteCount}/{totalVotes} votes{" "}
@@ -300,7 +300,7 @@ export default function ProjectView() {
         <Card.Title>
           <h3 className="text-center">invest (coming soon!)</h3>
         </Card.Title>
-        <Button text="invest with $mia" disabled />
+        <Button text="invest with stx" disabled />
       </Card.Body>
       <Card.Body className="text-center">
         <Card.Title>

@@ -6,19 +6,25 @@ export default function HowItWorks() {
       <h2 className={styles.title}>How it works</h2>
       <p>
         Funding would be determined in 30-day cycles. Prior to the start of each
-        funding cycle, interested Miami-based entrepreneurs would post their
-        projects on MiamiStarter. The city would also release a set amount of
-        funding, for example 1,000,000 $MIA tokens in this case, into a smart
-        contract on the Stacks blockchain.
+        funding cycle, entrepreneurs would post their projects on MiamiStarter.
+        The city would also release a set amount of funding into a smart
+        contract on the Stacks blockchain (1,000,000 STX tokens for the current
+        funding cycle).
       </p>
       <p>
-        Then during each cycle, $MIA token holders can review and vote on
-        project proposals featured on MiamiStarter. To do so, users must possess
-        a Stacks wallet, such as the Hiro wallet, that holds a minimum balance
-        of $MIA tokens. Each user can only cast one vote in each funding cycle.
+        Then during each cycle, $MIA token holders review and vote on project
+        proposals featured on MiamiStarter. To do so, users must possess a
+        Stacks wallet, such as the Hiro wallet, that holds a minimum balance of
+        $MIA tokens.
       </p>
       <p>
-        Besides voting, users can directly invest in projects using $MIA tokens.
+        To start, each user can only cast one vote for each funding cycle. As
+        the MiamiStarter platform grows, more sophisticated voting mechanisms
+        can be considered, such as allocating votes based on the amount of $MIA
+        held in a user's wallet.
+      </p>
+      <p>
+        Besides voting, users can directly invest in projects using STX tokens.
         If they meet certain investment thresholds, then they could be eligible
         to mint limited edition NFTs that give them access to special perks.
       </p>

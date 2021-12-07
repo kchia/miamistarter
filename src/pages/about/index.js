@@ -32,15 +32,18 @@ export default function AboutPage() {
         and/or invest in innovative crypto and tech startups based in Miami.
       </p>
       <p>
-        MiamiStarter helps the city put the funds it receives via $MIA mining to
-        attract crypto founders and other tech entrepreneurs to Miami, thereby
-        growing Miami's tech ecosystem.
+        By voting for their favorite projects on MiamiStarter, $MIA token
+        holders signal to the city which projects they think the city should
+        support with the funds it receives via $MIA mining, thereby helping the
+        city determine how to deploy part of its crypto treasury to attract
+        crypto founders and other tech entrepreneurs to Miami and growing
+        Miami's tech ecosystem.
       </p>
 
       <p>
-        Moreover, by requiring $MIA tokens to participate in the voting process,
-        MiamiStarter creates an incentive for people to hold $MIA, thereby
-        contributing to $MIA adoption in the city.
+        MiamiStarter also requires voters to hold $MIA tokens to be eligible to
+        participate in the voting process, thereby creating an incentive for
+        people to hold $MIA and contributing to MiamiCoin adoption in the city.
       </p>
 
       <h3>About CityCoins</h3>
@@ -52,6 +55,15 @@ export default function AboutPage() {
         The CityCoins protocol empowers urban communities worldwide to play an
         active role in how their cities are run, and offers a way for people to
         support their favorite cities.
+      </p>
+      <p>
+        The CityCoins protocol, which is built on Stacks, enables smart
+        contracts on the Bitcoin network. People can support their favorite
+        cities by mining the city's tokens (e.g., MiamiCoin/MIA for Miami) with
+        STX. 30% of the mining rewards, in STX, are sent to the city's reserve
+        wallet, and the city can claim the reward and convert the STX to USD to
+        be used in various projects (e.g., infrastructure, events, etc.) to
+        improve the city.
       </p>
       <p>
         CityCoins are decentralized, programmable, and built on open-source

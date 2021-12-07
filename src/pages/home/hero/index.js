@@ -16,10 +16,10 @@ export default function Hero() {
       <div className={styles.textOverlay}></div>
       <h2>Invest in the Miami you believe in.</h2>
       <h4>Vote on highly vetted ideas and teams based in Miami.</h4>
-      <h4>Or invest with $MIA.</h4>
+      <h4>Or invest with STX.</h4>
       <h4>
         Current Cycle Funding Pool:{" "}
-        <span className={styles.fundingPoolSize}>1,000,000 ($MIA)</span>
+        <span className={styles.fundingPoolSize}>1,000,000 STX</span>
       </h4>
       <Auth displayWalletInfo={false} />
     </LazyHero>

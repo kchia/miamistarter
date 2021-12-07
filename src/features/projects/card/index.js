@@ -46,7 +46,7 @@ export default function ProjectCard({
         <Card.Text>{description}</Card.Text>
         <Card.Text>
           <span className="funding-raised">{fundingRaised}</span> of{" "}
-          {fundingGoal} in $MIA raised
+          {fundingGoal} in STX raised
         </Card.Text>
         <ProgressBar now={fundingPercentage} label={`${fundingPercentage}%`} />
       </Card.Body>
