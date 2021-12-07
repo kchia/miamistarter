@@ -62,7 +62,7 @@ export default function HowItWorks() {
             Login to MiamiStarter with your wallet, which must have some $MIA
             tokens.
           </li>
-          <li>Vote on or invest directly in projects with $MIA.</li>
+          <li>Vote on or invest directly in projects with STX.</li>
         </ol>
       </section>
     </section>
