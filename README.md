@@ -1,6 +1,6 @@
 # MiamiStarter
 
-Miamistarter is a Web 3.0 app that allows $MIA token holders to vote on and/or invest in innovative crypto and tech startups based in Miami. Users can log into the app using a Stacks wallet such as [Hiro](https://www.hiro.so/wallet).
+Miamistarter is a Web 3.0 app that allows $MIA token holders to vote on and/or invest in innovative crypto and tech startups based in Miami. Users can log into the app using a Stacks wallet, [Hiro](https://www.hiro.so/wallet).
 
 ![MiamiStarter Home](images/miamistarter-home.png)
 
@@ -20,29 +20,32 @@ The project has been deployed to [Heroku: MiamiStarter](https://miamistarter.her
 
 Talent and capital have often been cited as barriers to Miami's growth as the next tech hub. To become the next tech hub, Miami needs to attract and retain more tech talent in the city. 
 
-Startups and tech workers are attracted to investment potential and innovation networks.
+Miami is a forward-looking and tech-friendly city. It is the first city to launch a token, called MiamiCoin, on the [CityCoins protocol](https://www.citycoins.co/). 
 
-MiamiCoin’s contributions to the city's treasury have grown to tens of millions of dollars, and Mayor Suarez and the City of Miami Commission have proposed several uses for the funds, including creating economic incentives for tech entrepreneurs.
+The CityCoins protocol, which is built on Stacks, enables smart contracts on the Bitcoin network. People can support their favorite cities, including Miami, by [mining](https://minemiamicoin.com/) the city's tokens (e.g., MiamiCoin/MIA for Miami) with STX. 30% of the mining rewards, in STX, are sent to the city's reserve wallet, and the city can claim the reward and convert the STX to USD to be used in various projects (e.g., infrastructure, events, etc.) to improve the city. 
 
-Using MiamiStarter, $MIA token holders can directly invest in and vote on startups and businesses that they think the city should support.
+MiamiCoin’s contributions to the city's treasury have grown to [tens of millions of dollars](https://www.citycoins.co/post/miamicoin-to-generate-bitcoin-for-miami-residents), and Mayor Suarez and the City of Miami Commission have proposed several uses for the funds, including creating economic incentives for tech entrepreneurs. After all, startups and tech workers are attracted to investment potential and innovation networks.
 
 ## Enter MiamiStarter
 
-Miamistarter is a Web 3.0 app that allows $MIA token holders to vote on and/or invest in innovative crypto and tech startups based in Miami.
+MiamiCoin token holders can play an active role in shaping the future of the city. 
 
-MiamiStarter helps the city put the funds it receives via $MIA mining to attract crypto founders and other tech entrepreneurs to Miami, thereby growing Miami's tech ecosystem. 
+Using **MiamiStarter**, a Web 3.0 app, $MIA token holders can directly invest in and/or vote on innovative crypto and tech startups that they think the city should support with the funds it receives via MiamiCoin mining. **MiamiStarter** helps the city deploy part of its crypto treasury to attract crypto founders and other tech entrepreneurs to Miami, thereby helping to grow Miami's tech ecosystem. 
 
-Moreover, by requiring $MIA tokens to participate in the voting process, MiamiStarter creates an incentive for people to hold $MIA, thereby contributing to $MIA adoption in the city.
+**MiamiStarter** also requires voters to hold MiamiCoin tokens to be eligible to participate in the voting process. As a result, **MiamiStarter** creates an incentive for people to hold MiamiCoin, thereby contributing to MiamiCoin adoption in the city.
+## How **MiamiStarter** Works
 
-## How MiamiStarter Works
+Funding would be determined in 30-day cycles. Prior to the start of each funding cycle, entrepreneurs would post their projects on **MiamiStarter**. The city would also release a set amount of funding, for example 1,000,000 STX tokens, into a smart contract on the Stacks blockchain. 
 
-Each funding cycle lasts for 30 days. Prior to the start of each cycle, the City of Miami's commission vets projects from Miami-based businesses and features them on MiamiStarter. The city also releases a set amount of funding, in the form of $MIA tokens, into a smart  contract.
+Then, during each cycle, MiamiCoin token holders review and vote on project proposals featured on **MiamiStarter**. To do so, users must possess a Stacks wallet, such as the Hiro wallet, that holds a minimum balance of MiamiCoin tokens (which is an amount greater than `0` for this MVP project). 
 
-During each cycle, $MIA token holders can review and vote on project proposals featured on MiamiStarter. To do so, users must possess a Stacks wallet (i.e., Hiro) that holds a minimum balance of $MIA tokens. Each user can only cast one vote in each funding cycle.
+To start, each user can only cast one vote for each funding cycle. As the **MiamiStarter** platform grows, more sophisticated voting mechanisms can be considered, such as allocating votes based on the amount of MiamiCoin held in a user's wallet. 
 
-Besides voting, users can directly invest in projects using $MIA tokens. If they meet certain investment thresholds, then they could be eligible to mint limited edition NFTs that give them access to special perks.
+Besides voting, users can directly invest in projects using STX tokens. If they meet certain investment thresholds, then they could be eligible to mint limited edition NFTs that give them access to special perks.
 
-At the end of each cycle, each project would receive an amount of $MIA token that is proportional to the number of votes on their projects. Suppose a project received 200 votes out of a possible 1000 total votes in a given cycle; in this case the startup is eligible to receive 20% of the funding pool. The $MIA tokens can either be cashed out to US dollars to fund immediate needs or stacked to earn a yield and cashed out later on. A smart contract, built on top of Stacks protocol, automates the deposit, transfer, and withdrawal of funds.
+At the end of each cycle, each project would receive an amount of MiamiCoin token that is proportional to the number of votes on their projects. Suppose a project received 200 votes out of a possible 1000 total votes in a given cycle; in this case the startup is eligible to receive 20% of the total funding pool for the current cycle, which is 1,000,000 MiamiCoin tokens in this case. The MiamiCoin tokens can either be cashed out to US dollars to fund immediate operational needs or stacked to earn a yield in $BTC/$STX and cashed out later on. 
+
+A smart contract, built on top of Stacks protocol, keeps track of the votes received by each project and automates the deposit, transfer, and withdrawal of funds for the whole funding process.
 
 ## How to Use MiamiStarter
 
@@ -122,10 +125,12 @@ The following principles were applied in the design of the folder structure:
 
 ## Next Steps
 
+**MiamiStarter** gives MiamiCoin token holders the ability to directly invest in and/or vote on startups and businesses that they think the city should support and provide funding to, thereby allowing residents and Miami supporters to participate in and directly influence the growth trajectory of the city. Here are potential next steps for the project:
+
 - Build a Reach connector for the Stacks consensus network
 - Create a New Project intake form so that entrepreneurs can submit their projects to be considered for funding on MiamiStarter
 - Testing apps that rely on $MIA to work is currently difficult since $MIA is not available via any testnet faucets (not that I know of), so perhaps it would be helpful to create such a faucet on testnet so the future developers can more easily test their applications
-- Allow the user to send $MIA directly to the wallet associated with each project as a direct investment
+- Allow the user to send STX directly to the wallet associated with each project as a direct investment
 - Create a (Stacks) smart contract that allows project supporters to mint NFTs as perks in the Stacks network. The NFTs would in turn grant them special privileges to a project, such as gaining early access to products or special discounts.
 - Create a (Stacks) smart contract to keep track of the number of votes and amount of funding received for each project
 
